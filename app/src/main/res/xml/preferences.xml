@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Required data">
+        <ListPreference
+            android:key="country"
+            android:defaultValue="US"
+            android:title="Country"
+            android:entries="@array/countries"
+            android:entryValues="@array/values"
+            />
+        <EditTextPreference
+            android:key="year"
+            android:defaultValue="2016"
+            android:title="Year"
+            />
+        <EditTextPreference
+            android:summary="1 or 2 digit month (1-12)"
+            android:key="month"
+            android:defaultValue="1"
+            android:title="Month"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Optional">
+        <EditTextPreference
+            android:summary="1 or 2 digit day (1-31 depending on the month)"
+            android:key="day"
+            android:defaultValue="1"
+            android:title="Day"
+            />
+        <CheckBoxPreference
+            android:summary="return only public holidays"
+            android:key="public"
+            android:defaultValue="false"
+            android:title="Public "
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Full Date Dependent"
+        >
+        <CheckBoxPreference
+            android:key="pre"
+            android:title="Previous"
+            android:summary="return previous holidays based on the date"
+            android:defaultValue="false"
+            />
+        <CheckBoxPreference
+            android:key="up"
+            android:title="Upcoming"
+            android:summary="return upcoming holidays based on the date"
+            android:defaultValue="false"
+            />
+
+    </PreferenceCategory>
+</PreferenceScreen>

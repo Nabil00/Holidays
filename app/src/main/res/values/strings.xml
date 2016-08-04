@@ -1,0 +1,63 @@
+<resources>
+
+    <string name="app_name">Holidays</string>
+
+    <array name="countries">
+
+
+        <item name="US">United States</item>
+        <item name="SK">Slovakia</item>
+        <item name="SI">Slovenia</item>
+        <item name="PR">Puerto Rico</item>
+        <item name="PL">Poland</item>
+        <item name="NO">Norway</item>
+        <item name="NL">Netherlands</item>
+
+        <item name="IT">Italy</item>
+        <item name="IN">India</item>
+        <item name="ID">Indonesia</item>
+        <item name="HU">Hungary</item>
+        <item name="HR">Croatia</item>
+        <item name="GT">Guatemala</item>
+        <item name="GB">United Kingdom</item>
+
+        <item name="FR">France</item>
+        <item name="ES">Spain</item>
+        <item name="DE">Germany</item>
+        <item name="CZ">Czech Republic</item>
+        <item name="CA">Canada</item>
+        <item name="BR">Brazil</item>
+        <item name="BG">Bulgaria</item>
+        <item name="BE">Belgium</item>
+
+    </array>
+
+    <array name="values">
+
+        <item name="US">US</item>
+        <item name="SK">SK</item>
+        <item name="SI">SI</item>
+        <item name="PR">PR</item>
+        <item name="PL">PL</item>
+        <item name="NO">NO</item>
+        <item name="NL">NL</item>
+
+        <item name="IT">IT</item>
+        <item name="IN">IN</item>
+        <item name="ID">ID</item>
+        <item name="HU">HU</item>
+        <item name="HR">HR</item>
+        <item name="GT">GT</item>
+        <item name="GB">GB</item>
+
+        <item name="FR">FR</item>
+        <item name="ES">ES</item>
+        <item name="DE">DE</item>
+        <item name="CZ">CZ</item>
+        <item name="CA">CA</item>
+        <item name="BR">BR</item>
+        <item name="BG">BG</item>
+        <item name="BE">BE</item>
+
+    </array>
+</resources>
